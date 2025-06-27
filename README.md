@@ -1,58 +1,33 @@
-___________________________________________________________________________                     ____________________________________________________________________________________________
-___________________________________________________________________________ AFRIBOT FIRE PATROL ____________________________________________________________________________________________
+
+____________________________________________________________________________________AFRIBOT FIRE PATROL____________________________________________________________________________________
 
 Description:
 
-This is an autonomous wildfire detection and prevention vehicle equipped with gas, flame, temperature, and obstacle sensors. It sends data to the cloud and activates a water pump in case of fire detection.
 
-Features:
+ This is an autonomous wildfire detection and prevention vehicle equipped with gas, flame, temperature, and obstacle sensors. It sends data to the cloud and activates a water pump in case of fire detection.
 
-Real-time flame and gas detection
 
-Cloud-based data monitoring ( Ubidots)
-
-Automatic water pump activation
-
+Features: Real-time flame and gas detection
+ Cloud-based data monitoring ( Ubidots) 
+Automatic water pump activation 
 Obstacle detection and avoidance
+ Wi-Fi enabled data transmission
 
-Wi-Fi enabled data transmission
 
 Technologies used:
+ 
+Hardware ESP32 microcontroller with camera ESP32-S 
+NEO-7M GPS module 
+MQ2 gas sensor 
+DHT11 temperature sensor 
+IR sensors Flame sensor 
+HC-SR04 ultrasonic sensor 
+12V water pump 
 
-Hardware
 
-    ESP32 microcontroller with camera
+Software:
+ Arduino IDE
+ Ubidots IoT Platform 
 
-    ESP32-S
 
-    NEO-7M GPS module
-
-    MQ2 gas sensor
-
-    DHT11 temperature sensor
-
-    IR sensors
-
-    Flame sensor
-
-    HC-SR04 ultrasonic sensor
-
-    12V water pump
-
-Software
-
-    Arduino IDE
-
-    Ubidots IoT Platform
-
-    
-
-BY:
-
-Moaz Elsayed
-
-Mohamed Said
-
-Abdalrahman Al-Masri
-
-Ahmed Asim
+BY: Moaz Elsayed, Mohamed Said, Abdalrahman Al-Masri, and Ahmed Asim
